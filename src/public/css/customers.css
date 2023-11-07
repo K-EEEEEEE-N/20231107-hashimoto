@@ -1,0 +1,237 @@
+
+
+.form {
+    margin: 30px 80px 30px 80px;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+.customer-form__heading {
+    text-align: center;
+}
+
+.form__group-title {
+    font-weight: bold;
+    width: 150px;
+}
+
+.form__group-name-gender {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form__group-name {
+    display: flex;
+}
+
+.form__input--text-name input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+}
+
+.form__group-gender {
+    display: flex;
+}
+
+.form__group-title-gender {
+    font-weight: bold;
+    width: 150px;
+    margin-left: 40px;
+}
+
+.form__input-radio input[type="radio"] {
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #AEAEAE;
+    border-radius: 50%;
+}
+
+.form__input-radio input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+.form__input-radio input {
+    margin-right: 10px;
+}
+
+.form__group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form__input--text-calendar {
+    display: flex;
+}
+
+.form__input--text-calendar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+}
+
+.form__input--text-calendar p {
+    margin: 10px 30px 10px 30px;
+}
+
+.form__input--text-email input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.form__link-reset {
+    color: black;
+}
+
+svg.w-5.h-5 {
+    width: 15px;
+    height: 20px;
+}
+
+.select__page-first {
+    border: 1px solid #AEAEAE;
+    text-decoration: none;
+    
+}
+
+.select__page-first-1 {
+    border: 1px solid #AEAEAE;
+    background-color: black;
+    color: white;
+}
+
+.select__page-first-2 {
+    border: 1px solid #AEAEAE;
+    color: black;
+    text-decoration: none;
+}
+
+.select__page-first-3 {
+    border: 1px solid #AEAEAE;
+    color: black;
+}
+
+.path {
+    border: 1px solid #AEAEAE;
+}
+
+.text__result-span {
+    margin-left: 20px;
+}
+
+.page__result {
+    display: flex;
+}
+
+.hidden {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.customer-table__content {
+    margin: 20px 80px 20px 80px ;
+}
+
+.customer-table__content th {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.customer-table__content td {
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.table__header-id {
+    width: 100px;
+}
+
+.table__header-name {
+    width: 100px;
+    text-align: left;
+}
+
+.table__header-gender {
+    width: 100px;
+}
+
+.table__header-email {
+    width: 300px;
+    text-align: left;
+}
+
+.table__row {
+    padding-top: 10px;
+}
+
+.table__row-id {
+    text-align: center;
+}
+
+.table__row-name {
+    text-align: left;
+}
+
+.table__row-gender {
+    text-align: center;
+}
+
+.table__row-opinion {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 430px;
+    display: block;
+}
+
+.table__row-opinion:hover {
+    white-space: normal;
+    overflow: visible;
+    max-width: none;
+}
+
+.table__row-delete {
+    text-align: center;
+}
+
+.table__row-delete-button {
+    width: 50px;
+    border: none;
+    border-radius: 3px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 40px;
+}

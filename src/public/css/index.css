@@ -1,0 +1,169 @@
+.contact-form__heading {
+    text-align: center;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__input--text-name p{
+    color: #AEAEAE;
+    margin-left: 50px;
+}
+
+.form__group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form__group-title {
+    width: 150px;
+    font-weight: bold;
+}
+
+.form__group-gender {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__group-content {
+    display: flex;
+    margin-right: 20px;
+}
+
+.contact-form__content {
+    padding: 30px 200px;
+}
+
+.form__input--text-last-name input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+}
+
+.form__input--text-first-name input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+.form__input--text-last-name p {
+    margin-left: 30px;
+    color: #AEAEAE;
+}
+
+.form__input--text-first-name p {
+    margin-left: 60px;
+    color: #AEAEAE;
+}
+
+.form__group-gender span {
+    position: relative;
+    top: 10px;
+}
+
+.form__input-radio input[type="radio"] {
+    appearance: none;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #AEAEAE;
+        border-radius: 50%;
+}
+
+.form__input-radio input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+.form__input-radio input {
+    margin-right: 10px;
+}
+
+.form__input-radio label {
+    margin-right: 40px;
+    position: relative;
+    bottom: 10px;
+}
+
+.form__input--text-email input{
+    padding: 10px;
+    width: 630px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+}
+
+.form__input--text-email p {
+    margin-left: 30px;
+    color: #AEAEAE;
+}
+
+.form__input--text-postcode input {
+    padding: 10px;
+    width: 594px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.form__input--text-postcode p {
+    margin-left: 60px;
+    color: #AEAEAE;
+}
+
+.form__input--text-address input {
+    padding: 10px;
+    width: 630px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+}
+
+.form__input--text-address p {
+    margin-left: 30px;
+    color: #AEAEAE;
+}
+
+.form__input--text-building_name input {
+    padding: 10px;
+    width: 630px;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+}
+
+.form__input--text-building_name p {
+    margin-left: 30px;
+    color: #AEAEAE;
+}
+
+.form__input--textarea textarea {
+    padding: 10px;
+    border: 1px solid #AEAEAE;
+    width: 630px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
