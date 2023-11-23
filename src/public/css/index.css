@@ -8,7 +8,6 @@
 
 .form__input--text-name p{
     color: #AEAEAE;
-    margin-left: 50px;
 }
 
 .form__group {
@@ -17,7 +16,8 @@
 }
 
 .form__group-title {
-    width: 150px;
+    max-width: 200px;
+    min-width: 150px;
     font-weight: bold;
 }
 
@@ -114,6 +114,10 @@
     border: 1px solid #AEAEAE;
     border-radius: 3px;
     margin-left: 20px;
+}
+
+.form__input--text-postcode-input {
+    display: flex;
 }
 
 .form__input--text-postcode p {

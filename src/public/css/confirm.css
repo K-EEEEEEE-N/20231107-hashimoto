@@ -8,7 +8,8 @@
 }
 
 .form__group-title {
-    width: 150px;
+    max-width: 200px;
+    min-width: 150px;
     font-weight: bold;
 }
 

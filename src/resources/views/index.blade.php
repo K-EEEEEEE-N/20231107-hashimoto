@@ -5,6 +5,7 @@
 @endsection
 
 @section('script')
+<script src="{{ asset('js/index.js') }}"></script>
 <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
 @endsection
 
@@ -100,8 +101,10 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text-postcode">
-                    <span class="p-country-name" style="display:none;">Japan</span>
-                    〒<input type="text" class="p-postal-code" size="8" maxlength="8" name="postcode" value="{{ old('postcode') }}">
+                    <div class="form__input--text-postcode-input">
+                        <span class="p-country-name" style="display:none;">Japan</span>
+                        <span>〒</span><input type="text" class="p-postal-code" size="8" maxlength="8" name="postcode" value="{{ old('postcode') }}">
+                    </div>
                     <p>例）123-4567</p>
                     @error('postcode')
                     <div class="form__error">
