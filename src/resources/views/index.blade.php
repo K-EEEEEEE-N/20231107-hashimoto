@@ -23,8 +23,9 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text-last-name">
-                    <input type="text" name="last-name" value="{{ old('last-name') }}" />
+                    <input type="text" id="last-name" name="last-name" value="{{ old('last-name') }}" />
                     <p>例）山田</p>
+                    <span class="real-check" id="lastname-check">※姓を入力してください</span>
                     @error('last-name')
                     <div class="form__error">
                         <ul>
@@ -36,8 +37,9 @@
                     @enderror
                 </div>
                 <div class="form__input--text-first-name">
-                    <input type="text" name="first-name" value="{{ old('first-name') }}" />
+                    <input type="text" id="first-name" name="first-name" value="{{ old('first-name') }}" />
                     <p>例）太郎</p>
+                    <span class="real-check" id="firstname-check">※名を入力してください</span>
                     @error('first-name')
                     <div class="form__error">
                         <ul>
@@ -80,8 +82,10 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text-email">
-                    <input type="email" name="email" value="{{ old('email') }}" />
+                    <input type="email" id="email" name="email" value="{{ old('email') }}" />
                     <p>例）test@example.com</p>
+                    <span class="real-check" id="email-check">※メールアドレスを入力してください</span>
+                    <span class="real-check" id="email-format">※メールアドレスは例の形式で入力してください</span>
                     @error('email')
                     <div class="form__error">
                         <ul>
@@ -103,9 +107,11 @@
                 <div class="form__input--text-postcode">
                     <div class="form__input--text-postcode-input">
                         <span class="p-country-name" style="display:none;">Japan</span>
-                        <span>〒</span><input type="text" class="p-postal-code" size="8" maxlength="8" name="postcode" value="{{ old('postcode') }}">
+                        <span>〒</span><input type="text" id="postcode" class="p-postal-code" size="8" maxlength="8" name="postcode" value="{{ old('postcode') }}">
                     </div>
                     <p>例）123-4567</p>
+                    <span class="real-check" id="postcode-check">※郵便番号を入力してください</span>
+                    <span class="real-check" id="postcode-format">※郵便番号は例の形式で入力してください</span>
                     @error('postcode')
                     <div class="form__error">
                         <ul>
@@ -125,8 +131,9 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text-address">
-                    <input type="text" class="p-region p-locality p-street-address p-extended-address" name="address" value="{{ old('address') }}" />
+                    <input type="text" id="address" class="p-region p-locality p-street-address p-extended-address" name="address" value="{{ old('address') }}" />
                     <p>例）東京都渋谷区千駄ヶ谷1-2-3</p>
+                    <span class="real-check" id="address-check">※住所を入力してください</span>
                     @error('address')
                     <div class="form__error">
                         <ul>
@@ -166,7 +173,9 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--textarea">
-                    <textarea name="opinion">{{ old('opinion') }}</textarea>
+                    <textarea id="opinion" name="opinion">{{ old('opinion') }}</textarea>
+                    <span class="real-check" id="opinion-check">※ご意見を入力してください</span>
+                    <span class="real-check" id="opinion-format">※ご意見は120文字以内で入力してください</span>
                     @error('opinion')
                     <div class="form__error">
                         <ul>

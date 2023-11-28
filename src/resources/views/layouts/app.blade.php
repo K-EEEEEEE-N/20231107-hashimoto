@@ -8,9 +8,9 @@
     <title>Contact Form</title>
     <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
     @yield('css')
-    @yield('script')
 </head>
 
 <body>
     @yield('content')
+    @yield('script')
 </body>

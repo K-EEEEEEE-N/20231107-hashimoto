@@ -6,7 +6,7 @@
     color: red;
 }
 
-.form__input--text-name p{
+.form__input--text-name p {
     color: #AEAEAE;
 }
 
@@ -67,10 +67,10 @@
 
 .form__input-radio input[type="radio"] {
     appearance: none;
-        width: 40px;
-        height: 40px;
-        border: 1px solid #AEAEAE;
-        border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #AEAEAE;
+    border-radius: 50%;
 }
 
 .form__input-radio input[type="radio"]:checked::before {
@@ -96,7 +96,7 @@
     bottom: 10px;
 }
 
-.form__input--text-email input{
+.form__input--text-email input {
     padding: 10px;
     width: 630px;
     border: 1px solid #AEAEAE;
@@ -170,4 +170,20 @@
     background: black;
     color: white;
     cursor: pointer;
+}
+
+/* リアルタイムバリデーション */
+
+.real-check {
+    display: none;
+    color: red;
+    margin-left: 10px;
+}
+
+.visible {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
 }
